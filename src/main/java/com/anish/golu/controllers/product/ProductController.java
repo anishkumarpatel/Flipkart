@@ -1,8 +1,7 @@
-package com.anish.golu.controllers;
+package com.anish.golu.controllers.product;
 
-import com.anish.golu.models.Product;
-import com.anish.golu.services.ProductService;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.anish.golu.models.product.Product;
+import com.anish.golu.services.product.ProductService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

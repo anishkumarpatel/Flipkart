@@ -1,6 +1,6 @@
-package com.anish.golu.repositories;
+package com.anish.golu.repositories.product;
 
-import com.anish.golu.models.Product;
+import com.anish.golu.models.product.Product;
 import jakarta.transaction.Transactional;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;

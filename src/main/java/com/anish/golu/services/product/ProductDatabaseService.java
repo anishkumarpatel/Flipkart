@@ -1,13 +1,11 @@
-package com.anish.golu.services;
+package com.anish.golu.services.product;
 
-import com.anish.golu.models.Product;
-import com.anish.golu.repositories.ProductRepository;
-import jakarta.transaction.Transactional;
+import com.anish.golu.models.product.Product;
+import com.anish.golu.repositories.product.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
-import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 

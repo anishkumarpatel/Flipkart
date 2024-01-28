@@ -1,9 +1,8 @@
-package com.anish.golu.services;
+package com.anish.golu.services.product;
 
-import com.anish.golu.models.Product;
+import com.anish.golu.models.product.Product;
 
 import java.util.List;
-import java.util.Set;
 
 public interface ProductService {
     Product getSingleProduct(Long id);

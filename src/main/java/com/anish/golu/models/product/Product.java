@@ -1,5 +1,6 @@
-package com.anish.golu.models;
+package com.anish.golu.models.product;
 
+import com.anish.golu.models.BaseModel;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.ManyToMany;
